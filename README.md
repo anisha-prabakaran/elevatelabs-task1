@@ -4,7 +4,16 @@ DATASET:
 
 Source: netflix.csv | Rows: 8807 | Columns: 12
 
-Tasks Performed:
+UPLOADED FILES :
+
+'Task 1.ipynb - Colab' = CODE FILE IN PDF FORMAT
+
+GOOGLE COLAB CODE LINK :
+( https://colab.research.google.com/drive/1IKx8bS2vD1bt_w-GRZskorUv61-cP9AS?usp=sharing )
+
+'altered_file'         = FINAL OUTPUT FILE IN CSV FORMAT
+
+TASK PERFORMED :
 
 1. Handling Missing Values
 Identified missing values using .isnull() and .sum().
