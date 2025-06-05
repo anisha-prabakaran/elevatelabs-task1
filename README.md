@@ -1,8 +1,12 @@
 This project involves a complete data cleaning pipeline for the Netflix dataset using Python (Pandas). The goal is to transform the raw CSV into a clean, structured, and analysis-ready format.
 
-DATASET:
+Internship Task – ElevateLabs | Task 1
 
-Source: netflix.csv | Rows: 8807 | Columns: 12
+Tool Used: Google Colab
+
+DATASET: netflix.csv | Rows: 8807 | Columns: 12
+
+-------------------
 
 UPLOADED FILES :
 
@@ -12,6 +16,8 @@ GOOGLE COLAB CODE LINK :
 ( https://colab.research.google.com/drive/1IKx8bS2vD1bt_w-GRZskorUv61-cP9AS?usp=sharing )
 
 'altered_file'         = FINAL OUTPUT FILE IN CSV FORMAT
+
+-----------------------
 
 TASK PERFORMED :
 
@@ -53,10 +59,13 @@ Renamed all column headers to lowercase with underscores (snake_case).
 
 Optimized data types using .convert_dtypes().
 
+---
+
 NOTE:
 
 "You can't store a column in a DataFrame as both a true datetime64[ns] and in 'dd-mm-yyyy' format. This is because datetime columns store raw timestamps internally, while formatting like 'dd-mm-yyyy' turns them into strings (object dtype). Formatting is only for display—not storage in datetime type."
 
+---
 
 FINAL OUTPUT:
 
